@@ -1,0 +1,27 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.item-container > div > button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
+
+.count {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.orange {
+    color: #ea7070;
+    font-weight: bold;
+}
